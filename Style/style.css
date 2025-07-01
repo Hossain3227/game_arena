@@ -549,3 +549,140 @@ button:hover {
 
 
 /* play now section ends */
+
+/* career section css starts */
+.careers_container {
+  max-width: 100%;
+  background-color: #FF42A5;
+}
+
+.careers_container .career_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.careers_container .career_desc {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.careers_container .career_desc .desc_con {
+  max-width: 720px;
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+
+.careers_container .crer_main_title {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.careers_container .sec_title p {
+  font-weight: 400;
+}
+
+.careers_container .sec_title * {
+  margin-top: 5px;
+}
+
+.careers_container .sec_desc {
+  color: white;
+}
+
+.careers_container .carear_ban_img img {
+  height: 100%;
+}
+
+.careers_container .listed_feture {
+  margin-top: 30px;
+}
+
+.careers_container .listed_feture .items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.careers_container .listed_feture .items h4 {
+  text-transform: capitalize;
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+/* career section css ends */
+
+/* buttons area section start */
+.butonns_area {
+  margin: 100px 0px;
+}
+
+.butonns_area .buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.butonns_area .buttons .btn_item {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.butonns_area .buttons .bn_ar_item {
+  border: 1px solid rgba(255, 66, 164, 0);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  padding: 10px;
+}
+
+.butonns_area .buttons .bn_ar_item * {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.butonns_area .buttons .bn_ar_item a {
+  color: #0B0223;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.butonns_area .buttons .bn_ar_item a img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.butonns_area .buttons .bn_ar_item:hover {
+  border: 1px solid #FF42A5;
+  transform: translate(0 , 0);
+  -webkit-transform: translate(0 , 0);
+  -moz-transform: translate(0 , 0);
+  -ms-transform: translate(0 , 0);
+  -o-transform: translate(0 , 0);
+}
+
+.butonns_area .buttons .bn_ar_item:hover a {
+  color: #FF42A5;
+}
+
+/* buttons area section end */
+
