@@ -302,3 +302,126 @@ button:hover {
   font-size: 32px;
 }
 /* team container css ends */
+
+/* game section css starts */
+.games_container {
+  margin: 100px 0px;
+}
+
+.games_container .games_content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+}
+
+/* game card css  */
+.games_container .game_card {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.games_container .game_card .card_desc * {
+  margin-top: 10px;
+}
+
+.games_container
+ .game_card .game_img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.games_container 
+.game_card .game_img img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.games_container .game_card
+ .over_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.games_container .game_card 
+.over_content .content {
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.6705882353);
+  height: 100%;
+  width: 100%;
+  transform: scale(5);
+  -webkit-transform: scale(5);
+  -moz-transform: scale(5);
+  -ms-transform: scale(5);
+  -o-transform: scale(5);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.games_container .game_card 
+.over_content .content * {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.games_container .game_card
+ .over_content .content .link {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FF42A5;
+}
+
+.games_container .game_card
+ .over_content .content .icon {
+  color: white;
+  font-size: 50px;
+}
+
+.games_container .game_card 
+.game_img:hover .content {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+} 
+
+/* game section css ends */
+
