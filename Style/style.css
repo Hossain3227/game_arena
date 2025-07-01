@@ -425,3 +425,127 @@ button:hover {
 
 /* game section css ends */
 
+/* play now section starts */
+.play_now_container {
+  padding: 50px 0px;
+}
+
+.play_now_container
+ .play_con_items {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.play_now_container 
+.paly_now_desc {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: end;
+}
+
+.play_now_container 
+.paly_now_desc .sec_title {
+  max-width: 400px;
+}
+
+.play_now_container .play_nest {
+  display: flex;
+  justify-content: end;
+}
+
+.play_now_container 
+.play_nest .play_images {
+  width: 75%;
+  position: relative;
+}
+
+.play_now_container
+ .play_nest .play_images 
+ .play_img_main {
+  width: 100%;
+}
+
+.play_now_container
+ .play_nest .play_images 
+ .over_element {
+  width: 100%;
+  height: 100%;
+  top: 15%;
+  right: 25%;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+
+.play_now_container .play_nest 
+.play_images .over_element 
+.overflow_img {
+  width: 50%;
+  height: 55%;
+}
+/* play now second section */
+.play_now_container_two {
+  margin: 100px 0px;
+  padding: 50px 0px;
+}
+
+.play_now_container_two
+ .play_con_items {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.play_now_container_two
+ .paly_now_desc {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: start;
+}
+
+.play_now_container_two
+ .paly_now_desc .sec_title {
+  max-width: 400px;
+}
+
+.play_now_container_two .play_nest {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.play_now_container_two 
+.play_nest .play_images {
+  width: 75%;
+  position: relative;
+}
+
+.play_now_container_two 
+.play_nest .play_images
+ .play_img_main {
+  width: 100%;
+}
+
+.play_now_container_two
+ .play_nest .play_images 
+ .over_element {
+  width: 100%;
+  height: 100%;
+  top: 15%;
+  right: -25%;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.play_now_container_two .play_nest 
+.play_images .over_element 
+.overflow_img {
+  width: 50%;
+  height: 55%;
+}
+
+
+/* play now section ends */
