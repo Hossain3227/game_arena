@@ -259,3 +259,46 @@ button:hover {
  .banner_desc .fe_item .item i {
   color: #FF42A5;
 }
+
+/* banner container css ends */
+
+/* team container css starts */
+.team_container {
+  margin: 50px 0px;
+}
+
+
+.team_container .team_content {
+  display: grid;
+  grid-template-columns: 1.8fr 1.2fr;
+}
+
+/* team img of team container */
+.team_container .team_content .team_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.team_container .team_content .team_desc {
+  max-width: 520px;
+  text-align: right;
+}
+
+.team_container .team_content .team_desc * {
+  margin-top: 10px;
+}
+
+.team_container .team_content .comment span {
+  color: #534C64;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.team_container .team_content .comment h1 {
+  color: #534C64;
+  line-height: 45px;
+  font-weight: 700;
+  font-size: 32px;
+}
+/* team container css ends */
