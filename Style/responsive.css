@@ -6,4 +6,169 @@
     margin: 0 auto;
     box-sizing: border-box;
   }
+  /* header start */
+.header .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header .manu_container {
+    margin-top: 20px;
+  }
+
+  .header .manus .manu_item .manu_link {
+    margin-left: 0px;
+
+  }
+  
+  .header .socials_links {
+    margin-left: 0px; 
+  }
+  /* header end */
+  /* banner start */
+  .banner_content {  
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+  .banner_desc {
+    margin: 0 auto;
+    margin-top: 40px;
+    order: 1;
+  }
+  .banner_img {
+    display: flex;
+    justify-content: center;
+  }
+  /* banner end */
+  /* team section start */
+  .team_container .team_content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .team_container .team_desc {
+    text-align: center !important;
+    margin: 0 auto;
+  }
+  /* team section end */
+
+  /* game container start */
+  .games_container .games_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* game container end */
+  /* play now section start */
+  .play_now_container .play_images {
+    width: 80% !important;
+  }
+  .play_now_container .play_images .play_img_main {
+    width: 100%;
+  }
+  .play_now_container .play_con_items {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .play_now_container .paly_now_desc {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .play_now_container_two .play_images {
+    width: 80% !important;
+  }
+  .play_now_container_two .play_con_items {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .play_now_container_two .paly_now_desc {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .play_now_container_two .play_nest {
+    order: 1;
+  }
+  /* play now section end */
+
+  /* career section start */
+  .careers_container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .careers_container .career_content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .careers_container .career_content .desc_con {
+    max-width: 100%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+  }
+  .careers_container .career_desc {
+    max-width: 100%;
+    padding: 20px 20px !important;
+    box-sizing: border-box;
+  }
+  .careers_container .career_desc .listed_feture {
+    margin-top: 30px;
+  }
+  .careers_container .career_desc .listed_feture .items h4 {
+    font-size: 15px;
+    line-height: 40px;
+  }
+  .careers_container .desc_con {
+    max-width: 100%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+  }
+/* career section end */
+
+/* buttons section start  */
+.butonns_area {
+    margin: 100px 0px;
+  }
+  .butonns_area .buttons .bn_ar_item a {
+    color: #0B0223;
+    font-size: 16px;
+  }
+  .butonns_area .buttons .bn_ar_item a img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  /* buttons section end */
+  /* footer section start */
+  .footer {
+    background: #0B0223;
+    margin-top: 100px;
+    padding: 100px 0px;
+  }
+  .footer a {
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+  }
+  .footer a:hover {
+    color: #FF42A5 !important;
+  }
+  .footer .fotter_content .fo_manu {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+  .footer .fotter_content .fo_social_link {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+  }
+  .footer .fotter_content .fo_imp_links {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+/* phn responsive starts */
+@media screen and (max-width: 599px){
+    
 }
