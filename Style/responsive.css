@@ -1,13 +1,18 @@
-@media screen and (min-width:600px) and (max-width:992px){
-    .container {
+
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+  .container {
     padding: 0px 30px;
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
   }
-  /* header start */
-.header .navbar {
+/* ================header Responsive Tab css style  start  ====================*/
+/* ================header Responsive Tab css style  start  ====================*/
+
+  .header .navbar {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,8 +29,14 @@
   .header .socials_links {
     margin-left: 0px; 
   }
-  /* header end */
-  /* banner start */
+  
+  /* ================header Responsive Tab css style  end  =====================*/
+/* ================header Responsive Tab css style  end  =====================*/
+
+
+/* ================banner_container Responsive Tab css style  start  =====================*/
+/* ================banner_container Responsive Tab css style  start  =====================*/
+
   .banner_content {  
     display: grid;
     grid-template-columns: 1fr !important;
@@ -39,8 +50,15 @@
     display: flex;
     justify-content: center;
   }
-  /* banner end */
-  /* team section start */
+
+  /* ================banner_container   Responsive Tab css style  end  =====================*/
+/* ================banner_container   Responsive Tab css style  end  =====================*/
+
+
+/* ================team_container   Responsive Tab css style  start  =====================*/
+/* ================team_container   Responsive Tab css style  start  =====================*/
+
+
   .team_container .team_content {
     display: grid;
     grid-template-columns: 1fr;
@@ -49,15 +67,28 @@
     text-align: center !important;
     margin: 0 auto;
   }
-  /* team section end */
 
-  /* game container start */
+  /* ================team_container   Responsive Tab css style  end  =====================*/
+/* ================team_container   Responsive Tab css style  end  =====================*/
+
+
+
+/* ================games_container   Responsive Tab css style  start  =====================*/
+/* ================games_container   Responsive Tab css style  start  =====================*/
+
+
   .games_container .games_content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  /* game container end */
-  /* play now section start */
+
+  /* ================games_container   Responsive Tab css style  end  =====================*/
+/* ================games_container   Responsive Tab css style  end  =====================*/
+
+
+/* ================ play_now_container   Responsive Tab css style  start  =====================*/
+/* ================ play_now_container   Responsive Tab css style  start  =====================*/
+
   .play_now_container .play_images {
     width: 80% !important;
   }
@@ -88,9 +119,17 @@
   .play_now_container_two .play_nest {
     order: 1;
   }
-  /* play now section end */
 
-  /* career section start */
+  /* ================ play_now_container   Responsive Tab css style  end  =====================*/
+  /* ================ play_now_container   Responsive Tab css style  end   =====================*/
+
+
+  /* ================ careers_container   Responsive Tab css style  start  =====================*/
+/* ================ careers_container   Responsive Tab css style  satrt   =====================*/
+
+
+
+
   .careers_container {
     display: flex;
     justify-content: end;
@@ -122,10 +161,18 @@
     padding: 30px 30px;
     box-sizing: border-box;
   }
-/* career section end */
 
-/* buttons section start  */
-.butonns_area {
+  
+/* ================ careers_container   Responsive Tab css style  end  =====================*/
+/* ================ careers_container   Responsive Tab css style  end   =====================*/
+
+
+/* ================ butonns_area   Responsive Tab css style  start  =====================*/
+/* ================ butonns_area   Responsive Tab css style  start   =====================*/
+
+
+
+  .butonns_area {
     margin: 100px 0px;
   }
   .butonns_area .buttons .bn_ar_item a {
@@ -136,8 +183,18 @@
     height: 30px;
     margin-right: 10px;
   }
-  /* buttons section end */
-  /* footer section start */
+
+
+  
+/* ================ butonns_area   Responsive Tab css style  end  =====================*/
+/* ================ butonns_area   Responsive Tab css style  end   =====================*/
+
+
+
+/* ================ footer   Responsive Tab css style  start  =====================*/
+/* ================ footer   Responsive Tab css style  start   =====================*/
+
+
   .footer {
     background: #0B0223;
     margin-top: 100px;
@@ -168,9 +225,27 @@
   }
 }
 
-/* phn responsive starts */
-@media screen and (max-width: 599px){
-    .prm_btn {
+/* ================ footer   Responsive Tab css style  end  =================-====*/
+/* ================ footer   Responsive Tab css style  end   ================-=====*/
+
+
+/* ====================================================--========= */
+/*                                                               */
+/*                 Responsive  css style for Tab end             */
+/*                                                               */
+/* ===================================================-========== */
+
+
+
+
+/* ============================================================= */
+/*                                                               */
+/*                Responsive Android css start                   */
+/*                                                               */
+/* ============================================================= */
+
+@media screen and (max-width: 599px) {
+  .prm_btn {
     padding: 15px 30px !important;
   }
   .prm_btn a {
@@ -183,7 +258,11 @@
     margin: 0 auto;
     box-sizing: border-box;
   }
-  /* header start */
+/* ================header Responsive Android css style  start  =====================*/
+/* ================header Responsive Android css style  start  =====================*/
+
+
+
   .header .navbar {
     display: flex;
     flex-direction: column;
@@ -203,10 +282,13 @@
     margin: 10px 0px; 
 
   }
+  
+    /* ================header Responsive Android css style  end  =====================*/
+/* ================header Responsive Android css style  end  =====================*/
 
-  /* header end */
 
-  /* banner responsive start */
+/* ================banner_container Responsive Android css style  start  =====================*/
+/* ================banner_container Responsive Android css style  start  =====================*/
   .banner_content {
     display: grid;
     grid-template-columns: 1fr !important;
@@ -226,9 +308,13 @@
     display: flex;
     justify-content: center;
   }
-  /* banner responsive end */
 
-  /* team container start */
+    /* ================banner_container   Responsive Android css style  end  =====================*/
+/* ================banner_container   Responsive Android css style  end  =====================*/
+
+
+/* ================team_container   Responsive Android css style  start  =====================*/
+/* ================team_container   Responsive Android css style  start  =====================*/
   .team_container .team_content {
     display: grid;
     grid-template-columns: 1fr;
@@ -237,6 +323,161 @@
     text-align: center !important;
     margin: 0 auto;
   }
-  /* team container ends */
+    /* ================team_container   Responsive Android css style  end  =====================*/
+/* ================team_container   Responsive Android css style  end  =====================*/
+
+
+
+/* ================games_container   Responsive Android css style  start  =====================*/
+/* ================games_container   Responsive Android css style  start  =====================*/
+
+
+  .games_container .games_content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .play_now_container .play_images {
+    width: 80% !important;
+  }
+  .play_now_container .play_images .play_img_main {
+    width: 100%;
+  }
+  .play_now_container .play_con_items {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .play_now_container .paly_now_desc {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .play_now_container_two .play_images {
+    width: 80% !important;
+  }
+  .play_now_container_two .play_con_items {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .play_now_container_two .paly_now_desc {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .play_now_container_two .play_nest {
+    order: 1;
+  }
   
+  /* ================ play_now_container   Responsive Android css style  end  =====================*/
+  /* ================ play_now_container   Responsive Android css style  end   =====================*/
+
+
+  /* ================ careers_container   Responsive Android css style  start  =====================*/
+/* ================ careers_container   Responsive Android css style  satrt   =====================*/
+
+  .careers_container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .careers_container .career_content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .careers_container .career_desc .sec_title .sec_desc {
+    font-size: 14px;
+  }
+  .careers_container .career_desc .listed_feture {
+    margin-top: 30px;
+  }
+  .careers_container .career_desc .listed_feture .items h4 {
+    font-size: 12px;
+    line-height: 40px;
+  }
+  .careers_container .desc_con {
+    max-width: 100%;
+    padding: 20px 20px !important;
+    box-sizing: border-box;
+  }
+
+  /* ================ careers_container   Responsive Android css style  end  =====================*/
+/* ================ careers_container   Responsive Android css style  end   =====================*/
+
+
+/* ================ butonns_area   Responsive Android css style  start  =====================*/
+/* ================ butonns_area   Responsive Android css style  start   =====================*/
+
+
+  .butonns_area {
+    margin: 30px 0px;
+  }
+  .butonns_area .buttons {
+    gap: 5px;
+  }
+  .butonns_area .buttons .btn_item {
+    margin-top: 10px;
+
+  }
+  .butonns_area .buttons .bn_ar_item {
+
+    border: 1px solid #ff42a400;
+    padding: 5px;
+  }
+  .butonns_area .buttons .bn_ar_item a {
+    color: #0B0223;
+    font-size: 8px;
+  }
+  .butonns_area .buttons .bn_ar_item a img {
+    margin-right: 4px;
+    height: 16px;
+  }
+
+  /* ================ butonns_area   Responsive Android css style  end  =====================*/
+/* ================ butonns_area   Responsive Android css style  end   =====================*/
+
+
+
+/* ================ footer   Responsive Android css style  start  =====================*/
+/* ================ footer   Responsive Android css style  start   =====================*/
+
+
+  .footer {
+    background: #0B0223;
+    margin-top: 40px;
+    padding: 50px 0px;
+  }
+  .footer a {
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+  }
+  .footer a:hover {
+    color: #FF42A5 !important;
+  }
+  .footer .fotter_content .fo_manu {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }        
+  .footer .fotter_content .fo_manu a {
+    font-size: 14px !important;
+  }
+  .footer .fotter_content .fo_social_link {     
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+  .footer .fotter_content .fo_imp_links {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .footer .fotter_content .fo_imp_links a {
+    font-size: 14px !important; 
+  }
+  .footer .fotter_content .fo_social_link .fo_manu_item {
+    margin: 15px 20px; 
+  }
 }
+
+/* ================ footer   Responsive Android css style  end  =====================*/
+/* ================ footer   Responsive Android css style  end   =====================*/
